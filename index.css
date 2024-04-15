@@ -1,0 +1,166 @@
+#nav1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+#nav1 #search{
+    width: 500px;
+    /* padding: 10px; */
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+#nav1 #search input{
+    width: 100%;
+    padding: 10px;
+    border:hidden;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+#nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    text-decoration: color(srgb red green #ffffff);
+}
+
+#nav2 > div{
+    width: 100%;
+    padding: auto;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+}
+
+/* -------------------------------------- */
+
+#slider{
+    padding : 30px;
+    display: flex;
+    gap: 20px;
+    width: 100%;  
+    overflow-x: scroll;
+}
+
+#slider1{
+
+    display: flex;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#backBtn, #nextBtn{
+    width: 40px;
+    background: gainsboro;
+    border-radius: 50%;
+}
+
+#slider::-webkit-scrollbar{
+    display: none;
+}
+
+#box{
+    width: 22%;
+    gap: 20px;
+    border: 2px solid purple;
+    flex: none;
+}
+#box2{
+    border: 2px solid red;
+}
+#box1>img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.slider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#backBtn1, #nextBtn1{
+    width: 40px;
+    background: gainsboro;
+    border-radius: 50%;
+}
+.container{
+    height: 370px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+.container > div {
+    display: flex;
+    height: 290px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.box > div {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px;
+    padding: auto;
+    flex-direction: column;
+    
+}
+
+.flex-box{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.flex-box > div {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px;
+    flex-direction: column;
+}
+#color{
+    background-color: aqua;
+}
+
+.grid-box{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+.grid-box > div {
+    height: 220px;
+    width: 100%;
+    border: 2px solid red;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
